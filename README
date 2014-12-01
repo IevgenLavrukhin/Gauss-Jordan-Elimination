@@ -1,0 +1,27 @@
+##########################################################################################
+To compile the program you need to run make file:
+
+          make
+
+#########################################################################################
+
+To calculate NxN system of linear equation that has the following form:
+
+a00 x0 + a01 x1 + ... + a0(n-1) x(n-1) = b0
+...........
+a(n-1)0 x0 + a(n-1)1 x1 + ... + a(n-1)(n-1) x(n-1) = b(n-1)
+
+you need to put your coefficience in arrayA.dat (for a(i)(i) coeffisients) and arrayB.dat (for b(i) coefficients) and then 
+
+
+#########################################################################################
+To run the code:
+
+    ./run arrayA.dat arrayB.dat
+
+
+#########################################################################################
+As an output you will get the values of your unknowns x0 .... x(n-1).
+
+
+ 
